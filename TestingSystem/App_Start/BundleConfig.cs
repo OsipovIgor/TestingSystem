@@ -19,6 +19,8 @@ namespace TestingSystem.App_Start
                 "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+            
+            bundles.Add(new StyleBundle("~/Content/auth").Include("~/Content/auth.css"));
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include("~/Content/bootstrap.css"));
 

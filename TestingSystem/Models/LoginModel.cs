@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TestingSystem.Models
 {
+    /// <summary>
+    /// Модель авторизации
+    /// </summary>
     public class LoginModel
     {
         [Required]
@@ -13,8 +16,6 @@ namespace TestingSystem.Models
         [DisplayName("Пароль")]
         public string Password { get; set; }
 
-        [DisplayName("Запомнить")]
-        public bool RememberMe { get; set; }
 
 
     }
