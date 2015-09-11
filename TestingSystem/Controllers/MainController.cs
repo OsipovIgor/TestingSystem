@@ -2,6 +2,7 @@
 
 namespace TestingSystem.Controllers
 {
+    [Authorize]
     public class MainController : Controller
     {
         public ActionResult Index()
